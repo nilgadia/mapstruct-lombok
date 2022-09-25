@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.shahid'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+compileJava {
+    options.compilerArgs += [
+            '-Amapstruct.suppressGeneratorTimestamp=true',
+            '-Amapstruct.suppressGeneratorVersionInfoComment=true',
+            '-Amapstruct.verbose=true'
+    ]
+}
+
+subprojects {
+    group = 'org.shahid'
+    version = '0.0.1-SNAPSHOT'
+
+    apply plugin: 'java'
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.24'
+        annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+        implementation 'org.mapstruct:mapstruct:1.5.2.Final'
+        annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.2.Final'
+        annotationProcessor 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+    }
+
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+}

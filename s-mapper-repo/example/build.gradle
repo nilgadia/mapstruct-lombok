@@ -1,0 +1,3 @@
+dependencies {
+    implementation project(':s-mapper-repo:generator')
+}
