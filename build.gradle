@@ -24,7 +24,9 @@ compileJava {
     options.compilerArgs += [
             '-Amapstruct.suppressGeneratorTimestamp=true',
             '-Amapstruct.suppressGeneratorVersionInfoComment=true',
-            '-Amapstruct.verbose=true'
+            '-Amapstruct.verbose=true',
+            '-XprintRounds=true',
+            '-XprintProcessorInfo'
     ]
 }
 

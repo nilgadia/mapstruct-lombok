@@ -8,7 +8,7 @@ import org.shahid.dto.GolfPlayerDto;
 @Mapper
 public interface GolfPlayerMapper {
 
-    GolfPlayerMapper INSTANCE = Mappers.getMapper( GolfPlayerMapper.class );
+    GolfPlayerMapper INSTANCE = Mappers.getMapper(GolfPlayerMapper.class);
 
     GolfPlayerDto toDto(GolfPlayer player);
 

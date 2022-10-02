@@ -12,6 +12,6 @@ import org.shahid.repo.domain.CarDto;
 @Mapper(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)
 public interface CarMapper extends StandardMapper<Car, CarDto> {
 
-	@Mapping(source = "numberOfSeats", target = "seatCount")
-	CarDto map(Car Car);
+    @Mapping(source = "numberOfSeats", target = "seatCount")
+    CarDto map(Car Car);
 }

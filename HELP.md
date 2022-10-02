@@ -14,5 +14,5 @@ These additional references should also help you:
 
 * [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
 
-https://github.com/mapstruct/mapstruct
-https://github.com/mapstruct/mapstruct-examples
+for advance mapping visit below 
+
