@@ -8,6 +8,7 @@ import java.lang.annotation.*;
  * GenerateDataAccessProcessor.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @Documented
 @Target({ElementType.TYPE, ElementType.METHOD})

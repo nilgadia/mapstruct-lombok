@@ -6,6 +6,7 @@ import java.lang.annotation.*;
  * Annotation type modeling the complexity level of types and methods.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @Documented
 @Target({

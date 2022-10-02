@@ -4,6 +4,7 @@ package org.shahid.processor.velocity;
  * Model for a type BeanInfo.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 public class BeanInfoTypeModel {
 

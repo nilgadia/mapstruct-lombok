@@ -26,6 +26,7 @@ import java.util.*;
  * JavaBean from an interface containing only getter and setter declarations.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @SupportedAnnotationTypes("org.shahid.annotations.entity.GenerateEntity")
 @SupportedSourceVersion(SourceVersion.RELEASE_9)

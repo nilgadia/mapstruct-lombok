@@ -7,6 +7,7 @@ import java.lang.annotation.*;
  * to be latter used to generate BeanInfo types suitable for visual editors.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @Documented
 @Target({

@@ -4,6 +4,7 @@ package org.shahid.annotations.base;
  * Enumeration of complexity levels.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 public enum ComplexityLevel {
 

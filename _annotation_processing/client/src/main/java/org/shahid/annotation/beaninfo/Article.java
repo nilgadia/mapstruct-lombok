@@ -7,6 +7,7 @@ import org.shahid.annotations.beaninfo.BeanInfo;
  * Article class that uses the BeanInfo annotation.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @BeanInfo
 public class Article {

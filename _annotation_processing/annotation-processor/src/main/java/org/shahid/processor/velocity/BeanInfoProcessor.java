@@ -26,6 +26,7 @@ import java.util.*;
  * BeanInfo type with the help of an Apache Velocity template.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @SupportedAnnotationTypes("org.shahid.annotations.velocity.BeanInfo")
 @SupportedSourceVersion(SourceVersion.RELEASE_9)

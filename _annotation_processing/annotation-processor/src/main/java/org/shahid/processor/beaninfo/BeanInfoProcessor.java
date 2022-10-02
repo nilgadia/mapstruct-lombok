@@ -22,6 +22,7 @@ import java.util.Set;
  * of a BeanInfo type by directly writing to the file output stream.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @SupportedAnnotationTypes("org.shahid.annotations.beaninfo.BeanInfo")
 @SupportedSourceVersion(SourceVersion.RELEASE_9)

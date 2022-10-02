@@ -10,6 +10,7 @@ import org.shahid.annotations.base.WorkProduct;
  * A simple class using Author, Complexity and WorkProduct annotations.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @Author(name = "Shahid",
         created = "17/09/2022",

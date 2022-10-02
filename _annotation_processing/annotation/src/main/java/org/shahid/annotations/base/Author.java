@@ -6,6 +6,7 @@ import java.lang.annotation.*;
  * Annotation type modeling authorship information for types.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @Documented
 @Target({

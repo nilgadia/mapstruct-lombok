@@ -7,6 +7,7 @@ package org.shahid.annotations.entity;
  * @param <T> the type of the entity bean
  * @param <K> the type of the primary key
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 public interface BaseDataAccess<T, K> {
 

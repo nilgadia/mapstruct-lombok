@@ -28,6 +28,7 @@ import java.util.*;
  * may be defined in the annotated interface.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @SupportedAnnotationTypes("org.shahid.annotations.entity.GenerateDataAccess")
 @SupportedSourceVersion(SourceVersion.RELEASE_9)

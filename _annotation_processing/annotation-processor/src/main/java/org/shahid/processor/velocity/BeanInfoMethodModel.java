@@ -6,6 +6,7 @@ import java.util.List;
  * Model for a method BeanInfo.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 public class BeanInfoMethodModel {
 

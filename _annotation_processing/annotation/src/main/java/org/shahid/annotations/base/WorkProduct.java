@@ -8,6 +8,7 @@ import java.lang.annotation.Target;
  * Annotation type modeling a Work Product identification.
  *
  * @author Shaikh Shahid Iqbal
+ * @version
  */
 @Documented
 @Target(ElementType.TYPE)
