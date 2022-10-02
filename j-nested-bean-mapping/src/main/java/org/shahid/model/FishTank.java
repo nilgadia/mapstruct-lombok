@@ -13,4 +13,7 @@ public class FishTank {
     private MaterialType material;
     private Interior interior;
     private WaterQuality quality;
+    private int length;
+    private int width;
+    private int height;
 }
