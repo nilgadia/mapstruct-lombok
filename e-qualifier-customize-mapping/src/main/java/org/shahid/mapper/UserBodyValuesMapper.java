@@ -4,7 +4,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;
 import org.mapstruct.factory.Mappers;
-import org.shahid.annotation.PoundToKilogram;
+import org.shahid.annotations.base.PoundToKilogram;
 import org.shahid.dto.UserBodyImperialValuesDTO;
 import org.shahid.model.UserBodyValues;
 

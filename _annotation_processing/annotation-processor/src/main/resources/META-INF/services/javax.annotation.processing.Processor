@@ -1,0 +1,5 @@
+org.shahid.processor.base.ComplexityProcessor
+org.shahid.processor.beaninfo.BeanInfoProcessor
+org.shahid.processor.entity.GenerateEntityProcessor
+org.shahid.processor.entity.GenerateDataAccessProcessor
+org.shahid.processor.velocity.BeanInfoProcessor

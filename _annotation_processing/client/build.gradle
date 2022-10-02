@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(':_annotation_processing:annotation')
+    annotationProcessor project(':_annotation_processing:annotation-processor')
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+}
